@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 
-function moveDodgerLeft() {
+function moveDodgerLeft(dodger) {
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
  
